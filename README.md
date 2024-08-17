@@ -7,7 +7,9 @@ A Laravel Nova tool to allow for placing actions in the Nova toolbar, detached f
 The action is detached from the row selection checkboxes in the resource table, so you will not have a collection of models to iterate over. 
 Detached actions are intended to be independent of the selection in the table.
 
-This is a fork of [gobrightspot/nova-detached-actions](https://github.com/gobrightspot/nova-detached-actions) abandoned repo, i rewrite a lot of part in using vue 3 composition api. 
+This is a fork of [datomatic/nova-detached-actions]{https://github.com/datomatic/nova-detached-actions) which in turn is a fork of [gobrightspot/nova-detached-actions](https://github.com/gobrightspot/nova-detached-actions) abandoned repo, i rewrite a lot of part in using vue 3 composition api. 
+
+This fork is an attempt to fix the issue relating incompatability with several packages because of completely overriding the toolbar such as in (https://github.com/dcasia/column-toggler/issues/11)
 
 :warning: Pivot actions are not supported and have not been tested.
 
